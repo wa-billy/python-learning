@@ -1,3 +1,5 @@
-def addNumber(x,y,z):
-    print(x+y-z)
-addNumber(9,1,9)
+price = int(input("enterPriceHere :"))
+def vat(price):
+    total = price+(price*7/100)
+    return total
+print(vat(price))
